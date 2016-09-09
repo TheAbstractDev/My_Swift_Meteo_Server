@@ -1,0 +1,19 @@
+{
+  "name": "MySwiftMeteoServer",
+  "version": "1.0.0",
+  "description": "MySwiftMeteoServer",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongodb": "^2.1.16",
+    "mongoose": "^4.5.7",
+    "request-promise": "^2.0.1"
+  }
+}
