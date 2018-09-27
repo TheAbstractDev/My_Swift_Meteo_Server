@@ -16,10 +16,5 @@ app.post('/test', function (req, res) {
 })
 
 app.listen(process.env.PORT || 4000, function () {
-  if (ip === 'localhost' || ip[0] === '1') {
-    console.log('Server running on http://' + ip + ':' + (process.env.PORT || 4000))
-  } else if (ip !== 'localhost' && ip[0] !== '1') {
-    console.error('Your ip address is not valid')
-    process.exit(1)
-  }
+  console.log('Server Running')
 })
