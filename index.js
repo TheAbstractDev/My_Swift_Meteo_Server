@@ -11,6 +11,9 @@ app.get('/', function (req, res) {
   res.json({})
 })
 app.get('/weather', WeatherManager.weatherData)
+app.post('/test', function (req, res) {
+  res.status(200).send('{"value": true}')
+})
 
 app.listen(process.env.PORT || 4000, function () {
   if (ip === 'localhost' || ip[0] === '1') {
